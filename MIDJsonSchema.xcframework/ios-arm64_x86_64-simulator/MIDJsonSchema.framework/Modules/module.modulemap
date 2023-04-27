@@ -1,0 +1,11 @@
+framework module MIDJsonSchema {
+  umbrella header "MIDJsonSchema.h"
+
+  export *
+  module * { export * }
+}
+
+module MIDJsonSchema.Swift {
+    header "MIDJsonSchema-Swift.h"
+    requires objc
+}
